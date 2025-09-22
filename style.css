@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+}
+
+.main-container {
+    flex: 1;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+.navbar ul {
+    /* removes the bullet points from the unordered list */
+    list-style: none;
+    display: flex;
+    /* justifies the content of the container to the left hand side */
+    justify-content: flex-start;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero { 
+    background-color: lightblue;
+    text-align: center;
+    padding: 60px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    border-radius: 10px;
+}
