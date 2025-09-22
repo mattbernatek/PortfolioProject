@@ -88,12 +88,13 @@ body {
 .card {
     width: 300px;
     overflow: hidden;
+    /* first value = x axis, second value = y axis, third value = blur, fourth value = spread */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
 .card-content {
-    padding: 10px;
+    padding: 20px;
 }
 
 .card-content h3 {
